@@ -1,0 +1,1 @@
+Sencha-touch + phonegap tryout
