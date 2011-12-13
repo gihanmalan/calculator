@@ -1,0 +1,17 @@
+/.idea/
+/*.iml
+/assets/www/touch/*.*
+/assets/www/touch/docs/
+/assets/www/touch/examples/
+/assets/www/touch/pkgs/
+/assets/www/touch/src/
+/assets/www/touch/css-debug/
+/assets/www/touch/resources/stylesheets/
+/assets/www/touch/resources/css-debug/
+/assets/www/touch/resources/themes/
+/assets/www/touch/resources/*/a*
+/assets/www/touch/resources/*/b*
+/assets/www/touch/resources/*/s*
+/assets/www/touch/resources/*/t*
+/assets/www/touch/resources/*/*.rb
+/assets/www/touch/resources/sass/.sass-cache
