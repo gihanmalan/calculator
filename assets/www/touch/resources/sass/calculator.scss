@@ -1,32 +1,41 @@
 @import 'sencha-touch/default/all';
 
-
-
 @include sencha-panel;
 @include sencha-buttons;
-@include sencha-sheet;
-@include sencha-picker;
-@include sencha-tabs;
+/*@include sencha-sheet;*/
+/*@include sencha-picker;*/
+/*@include sencha-tabs;*/
 @include sencha-toolbar;
 @include sencha-toolbar-forms;
-@include sencha-indexbar;
-@include sencha-list;
-@include sencha-list-paging;
-@include sencha-list-pullrefresh;
+/*@include sencha-indexbar;*/
+/*@include sencha-list;*/
+/*@include sencha-list-paging;*/
+/*@include sencha-list-pullrefresh;*/
 @include sencha-layout;
-@include sencha-carousel;
+/*@include sencha-carousel;*/
 @include sencha-form;
 @include sencha-msgbox;
-@include sencha-loading-spinner;
+/*@include sencha-loading-spinner;*/
 
 @include sencha-button-ui('orange', #ff8000, 'glossy');
 
 .simple-column{
-	.x-button{
-		margin: .1em;
-	}
+    .x-button{
+    		margin: .1em;
+   	}
+    .simple-button{
+   		font-size: 2.5em;
+   		border-width: 1px;
+   		margin: .035em;
+   	}
 }
 
+#action-label{
+ 	font-size: 4em;
+ 	text-align: right;
+ 	color: #CCCCCC;
+    @include single-text-shadow(#000000,0px,1px,0px)
+}
 
 
 

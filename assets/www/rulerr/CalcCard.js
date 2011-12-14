@@ -10,6 +10,11 @@ Ext.define('rulerr.CalcCard', {
 		layout:'vbox',
 		items:[
 			{
+				xtype:'label',
+				id:'action-label',
+				html:'333'
+			},
+			{
 				xtype:'panel',
 				//cls:'calculator-main',
 				flex:4,
@@ -37,7 +42,7 @@ Ext.define('rulerr.CalcCard', {
 					},
 					{
 						xtype:'simplecalccolumn',
-						keys:['+', '-', '*', '=']
+						keys:['+', '-', '*', '/']
 					}
 				]
 			},

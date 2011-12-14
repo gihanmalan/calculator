@@ -24,10 +24,12 @@ Ext.define('rulerr.SimpleCalcColumn', {
 			var b = {
 				text:item.toString(),
 				ui:'orange',
+				cls:'simple-button',
 				listeners:{
 					tap:function () {
-						Ext.Msg.alert('AAAAA', 'Main button was clicked');
-					}
+						Ext.Msg.alert('Hey', this.getText() + ' button was clicked');
+					},
+					scope:b
 				}
 			}
 			this.add(b)
